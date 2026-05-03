@@ -1,17 +1,17 @@
 /**
- * يبني محتوى الموقع الافتراضي من ملفات الواجهة src/data (مصدر واحد للحقيقة).
+ * يبني محتوى الموقع الافتراضي من `src/data` (مصدر واحد للحقيقة داخل هذا المشروع).
  */
-import { navLinks } from "../../../src/data/navigation.js";
+import { navLinks } from "../data/navigation.js";
 import {
   logoUrl,
   heroBannerUrl,
   toursVideoUrl,
-} from "../../../src/data/assets.js";
-import { services } from "../../../src/data/services.js";
-import { places } from "../../../src/data/places.js";
-import { bikeImages, bikesBannerImage } from "../../../src/data/bikes.js";
-import { reviewsImages, staticReviews } from "../../../src/data/reviews.js";
-import { reasons, aboutPortraitUrl } from "../../../src/data/about.js";
+} from "../data/assets.js";
+import { services } from "../data/services.js";
+import { places } from "../data/places.js";
+import { bikeImages, bikesBannerImage } from "../data/bikes.js";
+import { reviewsImages, staticReviews } from "../data/reviews.js";
+import { reasons, aboutPortraitUrl } from "../data/about.js";
 
 const footerServices = [
   "جولات سياحية يومية في أبها - عسير",
